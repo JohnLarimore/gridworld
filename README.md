@@ -1,11 +1,12 @@
 This repository contains Laramie County Community College's (LCCC) implementation of the Grid World environment, designed for experimenting with Reinforcement Learning algorithms.
 
 # Project Structure:
-* environment.py: The Markov Decision Process (MDP) logic (states, actions, rewards).
-* agent.py: The RL agent (eventually to include, Q-Learning, SARSA, or Deep Q-Network).
-* train.py: Script to run training loops and save models.
-* visualize.py: Tools for rendering the grid and plotting learning curves.
-* main_game.ipynb: An interactive notebook to demonstrate the agent's performance.
+
+* **`environment.py`**: The grid logic. Sets the goal at `(4,4)` and hazardous lava at `(1,3)`.
+* **`agent.py`**: The Q-Learning agent. Implements the Q-table update logic and $\epsilon$-greedy action selection.
+* **`train.py`**: Logic for running training episodes to let the agent learn from rewards.
+* **`visualize.py`**: Renders the $5 \times 5$ grid in the console/notebook and animates the agent's path.
+* **`main_game.ipynb`**: The main notebook to run training and watch the agent play.
 
 # Getting Started
 Prerequisites:
