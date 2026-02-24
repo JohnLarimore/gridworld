@@ -15,7 +15,7 @@ We can build out a bit better, then we'll be able to just clone the repository:
 * cd gridworld
 * (Optional) Create a virtual environment:
 * python -m venv venv
-* source venv/bin/activate  (On Windows: venv\Scripts\activate)
+* source venv/bin/activate 
 * Off to the racees
 
 # How to Run
