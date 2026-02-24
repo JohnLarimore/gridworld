@@ -8,17 +8,20 @@ This repository contains Laramie County Community College's (LCCC) implementatio
 * **`main_game.ipynb`**: The main notebook to run training and watch the agent play.
 
 # Usage:
-For now, just download as a .zip and upload into either JupyterLab or Google Colab. 
+For now, [Download Project as ZIP](https://github.com/JohnLarimore/gridworld/archive/refs/heads/main.zip) and upload into either JupyterLab or Google Colab. 
 
-Once we're more built out, we'll be able to just clone the repository:
+We can build out a bit better, then we'll be able to just clone the repository:
 * git clone https://github.com/JohnLarimore/gridworld.git
 * cd gridworld
 * (Optional) Create a virtual environment:
 * python -m venv venv
-* source venv/bin/activate  # On Windows: venv\Scripts\activate
+* source venv/bin/activate  (On Windows: venv\Scripts\activate)
+* Off to the racees
 
 # How to Run
 From your preferred Notebook environment, open 'main_game.ipynb' and run the lone cell. 
+
+* Details to be more carefully specified in the next club meeting. 
 
 # Contributing
 This is a collaborative project for the LCCC AI Club.
