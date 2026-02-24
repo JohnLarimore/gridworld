@@ -10,14 +10,6 @@ This repository contains Laramie County Community College's (LCCC) implementatio
 # Usage:
 For now, [Download Project as ZIP](https://github.com/JohnLarimore/gridworld/archive/refs/heads/main.zip) and upload into either JupyterLab or Google Colab. 
 
-We can build out a bit better, then we'll be able to just clone the repository:
-* git clone https://github.com/JohnLarimore/gridworld.git
-* cd gridworld
-* (Optional) Create a virtual environment:
-* python -m venv venv
-* source venv/bin/activate 
-* Off to the racees
-
 # How to Run
 From your preferred Notebook environment, open 'main_game.ipynb' and run the lone cell. 
 
